@@ -17,6 +17,10 @@ a {
     text-decoration: none;
 }
 
+a:hover {
+    background-color: #fd9b0c;
+}
+
 .container {
     width: 100%;
     padding: 0 15px;
@@ -69,6 +73,21 @@ header {
     margin-top: 2px;
 }
 
+.heading {
+    padding: 10px;
+    margin-top: 30px;
+    justify-content: center;
+    text-align: center;
+    color: #306838;
+}
+
+.heading h2 {
+    color: #306838;
+}
+
+.heading img {
+    width: 40px;
+}
 
 @media screen and (max-width: 500px) {
     .header a {
@@ -195,6 +214,11 @@ h2, h3 {
     padding: 10px;
 }
 
+.about h2 {
+    text-align: center;
+    font-size: 40px;
+}
+
 .ab-container{
     display: flex;
     justify-content: center;
@@ -235,18 +259,17 @@ p.copyright {
     font-size: 14px;
 }
 
-.heading {
-    padding: 10px;
-    margin-top: 30px;
-    justify-content: center;
+.btlink {
     text-align: center;
-    color: #306838;
+    margin: 10px;
 }
 
-.heading h2 {
+.btn {
     color: #306838;
+    background-color: #fd9b0c;
+    font-size: 24px;
 }
 
-.heading img {
-    width: 50px;
+.btn:hover {
+    cursor: pointer;
 }
