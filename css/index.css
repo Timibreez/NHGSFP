@@ -1,7 +1,12 @@
 
+html {
+    scroll-behavior: smooth;
+}
+
 body {
+    background-color:#ebf0e8;
     margin: 0;
-    font-family: "Lucida Grande";
+    font-family: 'Lucida Grande';
 }
 
 a {
@@ -14,9 +19,9 @@ a {
 }
 
 header {
-    height: 80px;
+    height: 65px;
     width: 100%;
-    background-color: #f6c523;
+    background-color: #306838;
     position: fixed;
     top: 0;
     z-index: -10;
@@ -28,16 +33,29 @@ header {
 
 .header-right {
     float: right;
-    background-color: rgba(255, 255, 255, 0.3);
     transition: all 0.5s;
 }
 
-.logo {
-    width: 70px;
-    margin-top: 10px;
+.header-right a {
+    line-height: 65px;
+    padding: 0 25px;
+    color: white;
+
 }
 
-.nsip-logo {
-    width: 70px;
-    margin-top: 5px;
+.logo {
+    width: 80px;
+    
+}
+
+
+@media screen and (max-width: 500px) {
+    .header a {
+      float: none;
+      display: block;
+      text-align: left;
+    }
+    .header-right {
+      float: none;
+    }
 }
