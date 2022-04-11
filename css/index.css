@@ -100,7 +100,7 @@ header {
 .slideshow-container {
     max-width: 1000px;
     position: relative;
-    margin: 30px auto;
+    margin: 20px auto;
 }
 
 /* Hide the images by default */
@@ -184,3 +184,69 @@ header {
 
 /* styling content */
 
+h2, h3 {
+    color: #fd9b0c;
+    font-weight: 1000;
+    
+}
+
+.about {
+    margin: 20px;
+    padding: 10px;
+}
+
+.ab-container{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.ab-story {
+    border: 5px solid #0c9e19;
+    margin: 10px 10px;
+    justify-content: center;
+    text-align: center;
+    padding: 10px;
+    line-height: 1.5em;
+    width:  400px;
+}
+
+.ab-story p {
+    font-size: 18px;
+}
+
+footer {
+    position: relative;
+    height: 70px;
+    width: 100%;
+    background-color: #306838;
+    margin-top: 70px;
+}
+
+p.copyright {
+    position: absolute;
+    width: 100%;
+    color: #fff;
+    line-height: 40px;
+    font-size: 0.7em;
+    text-align: center;
+    bottom:0;
+    font-size: 14px;
+}
+
+.heading {
+    padding: 10px;
+    margin-top: 30px;
+    justify-content: center;
+    text-align: center;
+    color: #306838;
+}
+
+.heading h2 {
+    color: #306838;
+}
+
+.heading img {
+    width: 50px;
+}
