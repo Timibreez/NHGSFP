@@ -102,9 +102,6 @@ header {
     color: #306838;
 }
 
-.heading img {
-    width: 40px;
-}
 
 @media screen and (max-width: 500px) {
     .header a {
@@ -239,7 +236,7 @@ h2, h3 {
 .ab-container{
     display: flex;
     justify-content: center;
-    flex-direction: row;
+   
     flex-wrap: wrap;
 }
 
@@ -248,9 +245,10 @@ h2, h3 {
     margin: 10px 10px;
     justify-content: center;
     text-align: center;
+    align-items: center;
     padding: 10px;
     line-height: 1.5em;
-    width:  400px;
+    width: 1000px;
 }
 
 .ab-story p {
